@@ -16,7 +16,7 @@
 
 2.add all untracked files and unstaged changes(添加所有未跟踪的文件和未暂存的文件):
 
-`git add`
+`git add.`
 
 3.choosse which parts of a file to stage(选择文件部分内容暂存):
 
