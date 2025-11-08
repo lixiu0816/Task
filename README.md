@@ -11,3 +11,5 @@
 - [Git 学习笔记](https://github.com/lixiu0816/Task/blob/main/git%E7%AC%94%E8%AE%B0.md)
 
 - [Git 提交练习文档](https://github.com/lixiu0816/Task/blob/main/hello.md)
+
+- [问题解决记录](https://github.com/lixiu0816/Task/blob/main/git%E5%A4%B1%E8%AF%AF%E7%AC%94%E8%AE%B0.md) 
