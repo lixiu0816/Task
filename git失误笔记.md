@@ -1,6 +1,7 @@
 # Git失误笔记
 
 ## 远程main分支有本地没有的更新，导致推送被拒绝
+![失误截屏](https://github.com/lixiu0816/Task/blob/main/images/git1.jpeg)
 1.拉取远程main的更新并合并到本地
 
 `git pull origin main`
