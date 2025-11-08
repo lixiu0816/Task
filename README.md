@@ -8,6 +8,8 @@
   
 - [个人简介 README 仓库](https://github.com/lixiu0816/lixiu0816)
 
+- [markdown练习文档](https://github.com/lixiu0816/Task/blob/main/markdown%E7%BB%83%E4%B9%A0%E6%96%87%E6%A1%A3.md)
+
 ## 第二阶段
 
 - [Git 学习笔记](https://github.com/lixiu0816/Task/blob/main/git%E7%AC%94%E8%AE%B0.md)
