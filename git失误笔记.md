@@ -38,6 +38,7 @@
 `再输入 :wq回车`
 
 ## 本地分支与远程仓库分支不匹配
+![失误截屏4](https://github.com/lixiu0816/Task/blob/main/images/git4.jpeg)
 ### 将master分支的内容推送到main分支中
 1.确认本地有没有main分支，执行以下命令
 
