@@ -25,6 +25,7 @@
 `git pull origin main --allow-unrelated-histories`
 
 注：这时会跳出一个新界面
+![失误截屏3](https://github.com/lixiu0816/Task/blob/main/images/git3.jpeg)
 
 `1.输入提示信息`
 
