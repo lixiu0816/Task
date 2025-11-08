@@ -84,5 +84,23 @@
     or
 `git pull`
 
+## Git文件的状态
+- 未跟踪(Untracked files)
+
+  文件是新创建的，git还未记录过。
+
+- 已缓存(Changes to be committed)
+
+  文件已经被git add过，处于准备提交状态。
+
+-已修改但未缓存(Changes not staged for commit)
+
+  文件已经被git跟踪，但修改后没有执行git add。
+
+- 已提交(Committed)
+
+  文件的修改已经被git commit保存到本地仓库。
+
+
 
 
