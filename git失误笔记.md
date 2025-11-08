@@ -1,7 +1,7 @@
 # Git失误笔记
 
 ## 远程main分支有本地没有的更新，导致推送被拒绝
-![失误截屏](https://github.com/lixiu0816/Task/blob/main/images/git1.jpeg)
+![失误截屏1](https://github.com/lixiu0816/Task/blob/main/images/git1.jpeg)
 1.拉取远程main的更新并合并到本地
 
 `git pull origin main`
@@ -13,6 +13,7 @@
 ### 输入完1.的内容后可能会出现下面问题
 
 未跟踪文件与远程仓库拉取下来的文件重名，git就会终止合并操作。
+![失误截屏2](https://github.com/lixiu0816/Task/blob/main/images/git2.jpeg)
 
 解决步骤：
 
