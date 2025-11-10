@@ -18,4 +18,8 @@
 
 - [Git 提交练习文档](https://github.com/lixiu0816/Task/blob/main/hello.md)
 
-- [问题解决记录](https://github.com/lixiu0816/Task/blob/main/git%E5%A4%B1%E8%AF%AF%E7%AC%94%E8%AE%B0.md) 
+- [问题解决记录](https://github.com/lixiu0816/Task/blob/main/git%E5%A4%B1%E8%AF%AF%E7%AC%94%E8%AE%B0.md)
+
+## 第三阶段
+
+- [HTML练习](https://lixiu0816.github.io/Task/HTML%E7%BB%83%E4%B9%A01.html)
