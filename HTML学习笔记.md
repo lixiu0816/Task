@@ -129,7 +129,7 @@ td：td 是 table data 的缩写，表示表格的数据单元格。
 ![div元素网页布局](https://github.com/lixiu0816/Task/raw/main/images/div%E5%85%83%E7%B4%A0.png)
 
 #### 使用<table>元素的网页布局
-![table元素网页布局]()
+![table元素网页布局](https://github.com/lixiu0816/Task/raw/main/images/table%E5%85%83%E7%B4%A0.png)
 
 
 
