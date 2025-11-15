@@ -134,9 +134,10 @@ td：td 是 table data 的缩写，表示表格的数据单元格。
 ### HTML 颜色
 HTML颜色由红色、绿色、蓝色混合而成。
 ##### 颜色值
-HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色和蓝色的值组成（RGB）。
+HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色和蓝色的值组成（RGB），RGBA 的意思是（Red-Green-Blue-Alpha）它是在 RGB 上扩展包括了 “alpha” 通道，运行对颜色值设置透明度。
 
 每种颜色的最小值是0（十六进制：#00）。最大值是255（十六进制：#FF）。
+![颜色表](https://github.com/lixiu0816/Task/raw/main/images/%E9%A2%9C%E8%89%B2%E8%A1%A8.png)
 
 
 
