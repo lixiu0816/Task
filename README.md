@@ -25,3 +25,5 @@
 - 📃[静态作品网页链接](https://lixiu0816.github.io/Task/HTML%E7%BB%83%E4%B9%A01.html)
 
 - 📙[HTML学习笔记](https://github.com/lixiu0816/Task/blob/main/HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+
+- 📔[CSS学习笔记](https://github.com/lixiu0816/Task/blob/main/CSS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
