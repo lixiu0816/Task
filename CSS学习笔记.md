@@ -178,6 +178,74 @@ p {font-size:0.875em;}
 - a:hover 必须跟在 a:link 和 a:visited后面
 
 - a:active 必须跟在 a:hover后面
+### CSS 轮廓（outline）
+轮廓（outline）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。
+
+CSS outline 属性规定元素轮廓的样式、颜色和宽度。
+![实例](https://www.runoob.com/images/box_outline.gif)
+#### 所有CSS 轮廓（outline）属性
+- outline：在一个声明中设置所有的轮廓属性
+
+- outline-color:设置轮廓的颜色
+
+- outline-style:设置轮廓的样式
+
+- outline-width:设置轮廓的宽度
+### CSS 网页布局
+网页布局有很多种方式，一般分为以下几个部分：**头部区域**、**菜单导航区域**、**内容区域**、**底部区域**。
+![实例](https://www.runoob.com/wp-content/uploads/2019/04/DBD1E737-47C5-445E-BFEC-7547210D88D5.jpg)
+##### 头部区域
+头部区域位于整个网页的顶部，一般用于设置网页的标题或者网页的 logo：
+```
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+```
+##### 菜单导航区域
+
+菜单导航条包含了一些链接，可以引导用户浏览其他页面.
+
+##### 内容区域
+内容区域一般有三种形式:
+
+- 1 列：一般用于移动端
+
+- 2 列：一般用于平板设备
+
+- 3 列：一般用于 PC 桌面设备
+![实例](https://www.runoob.com/wp-content/uploads/2019/04/D105F34E-6592-47AC-A9DF-EEDC1E2172B3.jpg)
+我们将创建一个 3 列布局，在小的屏幕上将会变成 1 列布局（响应式）：
+```
+CSS3 实例
+/* 创建三个相等的列 */
+.column {
+  float: left;
+  width: 33.33%;
+}
+ 
+/* 列后清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 响应式布局 - 小于 600 px 时改为上下布局 */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+```
+**提示**:要设置两列可以设置 width 为 50%。创建 4 列可以设置为 25%。
+
+
+
+
+
+
 
 
 
