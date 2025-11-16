@@ -26,8 +26,166 @@ CSS规则有两个主要的部分构成：选择器，以及一条或多条声�
 ![css实例](https://github.com/lixiu0816/Task/raw/main/images/CSS1.png)
 ### CSS 三种导入方式
 1. 内联样式（inline styles）
+   
+当样式仅需要在一个元素上应用一次时。
+
+`<p style="color:sienna;margin-left:20px">这是一个段落。</p>`
+
 2. 内部样式表（internal stylesheet）
+
+当单个文档需要特殊的样式时，就应该使用内部样式表。
+```
+<head>
+<style>
+hr {color:blue;}
+p {margin-left:20px}
+body {background-image:url("images/back40.gif");}
+</style>
+</head>
+```
 3. 外部样式表（external stylesheet）
 
+当样式需要应用于很多页面时，外部样式表将是理想的选择。
+
+浏览器会从文件 mystyle.css 中读到样式声明，并根据它来格式文档。
+```
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+```
 **三种导入方式优先级**：
 `'内联样式'>'内部样式表'>'外部样式表'`
+### CSS 背景
+CSS 背景属性用于定义HTML元素的背景。
+
+CSS 属性定义背景效果:
+
+- background
+
+简写属性，作用是将背景属性设置在一个声明中。
+
+- background-color
+
+background-color 属性定义了元素的背景颜色.
+
+- background-image
+
+background-image 属性描述了元素的背景图像.
+
+默认情况下 background-image 属性会在页面的水平或者垂直方向平铺。
+
+默认情况下，背景图像进行平铺重复显示，以覆盖整个元素实体.
+
+- background-repeat
+
+如果你不想让图像平铺，你可以使用 background-repeat 属性:
+```
+body
+{
+background-image:url('img_tree.png');
+background-repeat:no-repeat;
+}
+```
+- background-attachment
+
+- background-position
+  
+可以利用 background-position 属性改变图像在背景中的位置.
+### CSS 文本格式
+##### 文本颜色
+颜色是通过CSS最经常的指定：
+
+- 十六进制值 - 如: ＃FF0000
+
+- 一个RGB值 - 如: RGB(255,0,0)
+
+- 颜色的名称 - 如: red
+
+一个网页的背景颜色是指在主体内的选择：
+```
+实例
+body {color:red;}
+h1 {color:#00ff00;}
+h2 {color:rgb(255,0,0);}
+```
+**注**：对于W3C标准的CSS：如果你定义了颜色属性，你还必须定义背景色属性。
+##### 文本的对齐方式
+文本排列属性是用来设置文本的水平对齐方式。
+
+文本可居中或对齐到左或右,两端对齐.
+
+当text-align设置为"justify"，每一行被展开为宽度相等，左，右外边距是对齐（如杂志和报纸）。
+```
+实例
+h1 {text-align:center;}
+p.date {text-align:right;}
+p.main {text-align:justify;}
+```
+##### 文本修饰
+ext-decoration 属性用来设置或删除文本的装饰。
+
+从设计的角度看 text-decoration属性主要是用来删除链接的下划线。
+##### 文本转换
+文本转换属性是用来指定在一个文本中的大写和小写字母。
+
+可用于所有字句变成大写或小写字母，或每个单词的首字母大写。
+```
+p.uppercase {text-transform:uppercase;}
+p.lowercase {text-transform:lowercase;}
+p.capitalize {text-transform:capitalize;}
+```
+##### 文本缩进
+文本缩进属性是用来指定文本的第一行的缩进。
+### CSS 字体
+CSS字体属性定义字体，加粗，大小，文字样式。
+##### serif和sans-serif字体之间的区别
+![字体](https://www.runoob.com/images/serif.gif)
+**注** 在计算机屏幕上，sans-serif字体被认为是比serif字体容易阅读
+#### CSS字型
+
+在CSS中，有两种类型的字体系列名称：
+
+- **通用字体系列** - 拥有相似外观的字体系统组合（如 "Serif" 或 "Monospace"）
+
+- **特定字体系列** - 一个特定的字体系列（如 "Times" 或 "Courier"）
+
+**注**: 如果字体系列的名称超过一个字，它必须用引号，如Font Family："宋体"。
+
+多个字体系列是用一个逗号分隔指明.
+#### 使用百分比和EM组合来设置字体大小
+
+在所有浏览器的解决方案中，设置 <body>元素的默认字体大小的是百分比：
+```
+body {font-size:100%;}
+h1 {font-size:2.5em;}
+h2 {font-size:1.875em;}
+p {font-size:0.875em;}
+```
+### CSS 链接
+##### 链接样式
+四个链接状态是：
+
+- a:link - 正常，未访问过的链接
+
+- a:visited - 用户已访问过的链接
+
+- a:hover - 当用户鼠标放在链接上时
+
+- a:active - 链接被点击的那一刻
+
+**注**：当设置为若干链路状态的样式，也有一些顺序规则：
+
+- a:hover 必须跟在 a:link 和 a:visited后面
+
+- a:active 必须跟在 a:hover后面
+
+
+
+
+
+
+
+
+
+
+
