@@ -125,13 +125,19 @@ td：td 是 table data 的缩写，表示表格的数据单元格。
 
 **注**：列表可以嵌套使用。
 ### HTML布局
-##### 使用<div>元素的网页布局
+##### 使用div元素的网页布局
 ![div元素网页布局](https://github.com/lixiu0816/Task/raw/main/images/div%E5%85%83%E7%B4%A0.png)
 
-#### 使用<table>元素的网页布局
+#### 使用table元素的网页布局
 ![table元素网页布局](https://github.com/lixiu0816/Task/raw/main/images/table%E5%85%83%E7%B4%A0.png)
 
+### HTML 颜色
+HTML颜色由红色、绿色、蓝色混合而成。
+##### 颜色值
+HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色和蓝色的值组成（RGB），RGBA 的意思是（Red-Green-Blue-Alpha）它是在 RGB 上扩展包括了 “alpha” 通道，运行对颜色值设置透明度。
 
+每种颜色的最小值是0（十六进制：#00）。最大值是255（十六进制：#FF）。
+![颜色表](https://github.com/lixiu0816/Task/raw/main/images/%E9%A2%9C%E8%89%B2%E8%A1%A8.png)
 
 
 
